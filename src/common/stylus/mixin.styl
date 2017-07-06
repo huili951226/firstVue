@@ -1,0 +1,49 @@
+border-1px($color)
+	&:after
+		display:block
+		position:absolute
+		left:0
+		top:0
+		width:100%
+		border-bottom:1px solid $color
+		content:''
+
+border-5px($color)
+	&:after
+		display:block
+		position:absolute
+		left:0
+		bottom:0
+		width:100%
+		border-top:5px solid $color
+		content:''
+
+border-l1px($color)
+	position:relative
+	&:after
+		display:block
+		position:absolute
+		left:0
+		top:0
+		height:26px
+		border-left:1px solid $color
+		content:''
+border-b1px($color)
+	&:after
+		display:block
+		position:absolute
+		left:0
+		bottom:0
+		width:100%
+		border-top:1px solid $color
+		content:''
+border-none
+	&:after
+		display:block
+		position:absolute
+		left:0
+		bottom:0
+		width:100%
+		border:none
+		content:''
+		

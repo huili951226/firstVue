@@ -1,0 +1,260 @@
+{
+	"index": {
+		"username":"张三",
+		"password":"******",
+		"name": "主页",
+		"banner": "http://p0.qhimg.com/t01795f8658c4cf31f5.jpg",
+		"user": [
+			{
+				"id": 1,
+				"key":"",
+				"nickname": "爱丽丝1",
+				"username":"张三",
+				"idCard":"****************",
+				"email":"8888@qq.com",
+				"phoneNumber":"188****2402",
+				"password":"******",
+				"sex":"男",
+				"registerModel": {
+					"email": "",
+					"password": "",
+					"confirmPassword": ""
+				},
+				"loginModel": {
+					"username": "1",
+					"password": "1",
+					"grant_type": "password"
+				},
+				"msg": "111",
+				"userName": "",
+				"result": ""
+			},
+			{
+				"id": 2,
+				"key":"",
+				"nickname": "爱丽丝2",
+				"username":"李四",
+				"idCard":"****************",
+				"email":"8888@qq.com",
+				"phoneNumber":"188****2402",
+				"password":"******",
+				"sex":"男"
+			},
+			{
+				"id": 3,
+				"key":"",
+				"nickname": "爱丽丝3",
+				"username":"王二",
+				"idCard":"****************",
+				"email":"8888@qq.com",
+				"phoneNumber":"188****2402",
+				"password":"******",
+				"sex":"男"
+			}
+		],
+		"visitor": {
+			"visitorsToday": 21,
+			"historyVisitors": 2000
+		},
+		"class":[
+			 {
+				"name": "recommend",
+				"id":1,
+				"game": [
+					{
+						"gameNumber":"1",
+						"gameLogo":"",
+						"gameTitle": "怪物快跑",
+						"gameType":"休闲类",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "怪物快跑",
+							"introduce": "怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑"
+						}
+					},
+					{
+						"gameNumber":"2",
+						"gameLogo":"",
+						"gameTitle": "一元夺宝",
+						"gameType":"竞技类",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "一元夺宝",
+							"introduce": "一元夺宝,一元夺宝,一元夺宝一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝"
+						}
+					},
+					{
+						"gameNumber":"3",
+						"gameLogo":"",
+						"gameTitle": "超级警察",
+						"gameType":"小游戏",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "超级警察",
+							"introduce": "超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察"
+						}
+					}
+				]
+			},
+			{
+				"name": "friendsPlaying",
+				"id":2,
+				"game": [
+					{
+						"gameNumber":"1",
+						"gameLogo":"",
+						"gameTitle": "怪物快跑",
+						"gameType":"休闲类",
+						"gameFriends":"张三",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "怪物快跑",
+							"introduce": "怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑"
+						}
+					},
+					{
+						"gameNumber":"2",
+						"gameLogo":"",
+						"gameTitle": "一元夺宝",
+						"gameType":"竞技类",
+						"gameFriends":"李四",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "一元夺宝",
+							"introduce": "一元夺宝,一元夺宝,一元夺宝一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝"
+						}
+					},
+					{
+						"gameNumber":"3",
+						"gameLogo":"",
+						"gameTitle": "超级警察",
+						"gameType":"小游戏",
+						"gameFriends":"王五",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "超级警察",
+							"introduce": "超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察"
+						}
+					}
+				]
+			},
+			{
+				"name": "boutique",
+				"id":3,
+				"game": [
+					{
+						"gameNumber":"1",
+						"gameLogo":"",
+						"gameTitle": "怪物快跑",
+						"gameType":"休闲类",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "怪物快跑",
+							"introduce": "怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑"
+						}
+					},
+					{
+						"gameNumber":"2",
+						"gameLogo":"",
+						"gameTitle": "一元夺宝",
+						"gameType":"竞技类",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "一元夺宝",
+							"introduce": "一元夺宝,一元夺宝,一元夺宝一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝"
+						}
+					},
+					{
+						"gameNumber":"3",
+						"gameLogo":"",
+						"gameTitle": "超级警察",
+						"gameType":"小游戏",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "超级警察",
+							"introduce": "超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察"
+						}
+					}
+				]
+			},
+			{
+				"name": "newProducts",
+				"id":4,
+				"game": [
+					{
+						"gameNumber":"1",
+						"gameLogo":"",
+						"gameTitle": "怪物快跑",
+						"gameType":"休闲类",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "怪物快跑",
+							"introduce": "怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑"
+						}
+					},
+					{
+						"gameNumber":"2",
+						"gameLogo":"",
+						"gameTitle": "一元夺宝",
+						"gameType":"竞技类",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "一元夺宝",
+							"introduce": "一元夺宝,一元夺宝,一元夺宝一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝"
+						}
+					},
+					{
+						"gameNumber":"3",
+						"gameLogo":"",
+						"gameTitle": "超级警察",
+						"gameType":"小游戏",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "超级警察",
+							"introduce": "超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察"
+						}
+					}
+				]
+			},
+			{
+				"name": "hottestGame",
+				"id":5,
+				"game": [
+					{
+						"gameNumber":"1",
+						"gameLogo":"",
+						"gameTitle": "怪物快跑",
+						"gameType":"休闲类",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "怪物快跑",
+							"introduce": "怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑,怪物快跑"
+						}
+					},
+					{
+						"gameNumber":"2",
+						"gameLogo":"",
+						"gameTitle": "一元夺宝",
+						"gameType":"竞技类",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "一元夺宝",
+							"introduce": "一元夺宝,一元夺宝,一元夺宝一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝,一元夺宝"
+						}
+					},
+					{
+						"gameNumber":"3",
+						"gameLogo":"",
+						"gameTitle": "超级警察",
+						"gameType":"小游戏",
+						"details": {
+							"gameLogo": "",
+							"gameTitle": "超级警察",
+							"introduce": "超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察,超级警察"
+						}
+					}
+				]
+			}
+		]
+	}
+}
