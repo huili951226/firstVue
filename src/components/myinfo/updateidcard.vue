@@ -4,9 +4,7 @@
 			<div class="form-control">
 				<input type="number" placeholder="请填写您的身份证号">
 			</div>
-			<div class="confirm">
-	          <input type="button" value="保存">
-	        </div>
+			<button type="button" class="confirm">保存</button>
 		</form>
 	</div>
 </template>
@@ -15,6 +13,6 @@ export default {
 };
 </script>
 
-<style lang="stylus" type="type/stylus" rel="stylesheet/stylus">
+<style lang="stylus" type="type/stylus" rel="stylesheet/stylus" scoped>
 	@import "./css/common.styl";
 </style>

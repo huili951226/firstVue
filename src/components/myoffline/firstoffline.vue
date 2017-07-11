@@ -43,54 +43,6 @@
 						</div>
 						<i class="arrow"></i>
 					</li>
-					<li class="item border-b1px">
-						<div class="accounts">
-							<a href="" class="avatar"><img src="./images/user.jpg" alt="" width=100%></a>
-							<div class="userinfo">
-								<p class="username">
-									<a href="">追随者</a>
-								</p>
-								<p class="number">追随者：<span>5</span>人</p>
-							</div>
-						</div>
-						<div class="logindate">
-							<span class="date">2017年7月5日</span>
-							<span class="time">14:00</span>
-						</div>
-						<i class="arrow"></i>
-					</li>
-					<li class="item border-b1px">
-						<div class="accounts">
-							<a href="" class="avatar"><img src="./images/user.jpg" alt="" width=100%></a>
-							<div class="userinfo">
-								<p class="username">
-									<a href="">追随者</a>
-								</p>
-								<p class="number">追随者：<span>5</span>人</p>
-							</div>
-						</div>
-						<div class="logindate">
-							<span class="date">2017年7月5日</span>
-							<span class="time">14:00</span>
-						</div>
-						<i class="arrow"></i>
-					</li>
-					<li class="item border-b1px">
-						<div class="accounts">
-							<a href="" class="avatar"><img src="./images/user.jpg" alt="" width=100%></a>
-							<div class="userinfo">
-								<p class="username">
-									<a href="">追随者</a>
-								</p>
-								<p class="number">追随者：<span>5</span>人</p>
-							</div>
-						</div>
-						<div class="logindate">
-							<span class="date">2017年7月5日</span>
-							<span class="time">14:00</span>
-						</div>
-						<i class="arrow"></i>
-					</li>
 				</ul>
 			</div>
 		</div>
@@ -101,7 +53,7 @@ export default {
 };
 </script>
 
-<style lang="stylus" type="type/stylus" rel="stylesheet/stylus">
+<style lang="stylus" type="type/stylus" rel="stylesheet/stylus" scoped>
 	@import "../../common/stylus/base.styl";
 	@import "../../common/stylus/mixin.styl";
 	@import "./css/common.styl";

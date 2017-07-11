@@ -5,9 +5,7 @@
 				<input type="number" placeholder="请填写您的用户名">
 			</div>
 			<p class="limit">用户名要求不少于2个字符；支持中文，英文，数字</p>
-			<div class="confirm">
-	          <input type="button" value="保存">
-	        </div>
+			<button type="button" class="confirm">保存</button>
 		</form>
 	</div>
 </template>
@@ -16,6 +14,6 @@ export default {
 };
 </script>
 
-<style lang="stylus" type="type/stylus" rel="stylesheet/stylus">
+<style lang="stylus" type="type/stylus" rel="stylesheet/stylus" scoped>
 	@import "./css/common.styl";
 </style>

@@ -24,7 +24,7 @@ var proxyTable = config.dev.proxyTable
 
 var app = express()
 
-var appData = require('../data1.json');
+var appData = require('../data.json');
 var index = appData.index;
 var news = appData.news;
 var ranking = appData.ranking;

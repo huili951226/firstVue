@@ -8,8 +8,10 @@
 			</li>
 			<li class="item border-b1px">
 				<span class="item-left">用户名</span>
-				<span class="item-right">填写用户名</span>
-				<i class="arrow"></i>
+				<span class="item-right">
+					<router-link to="/myinfo/updateusername">填写用户名</router-link>
+				</span>
+				<router-link to="/myinfo/updateusername" class="arrow"></router-link>
 			</li>
 			<li class="item border-b1px">
 				<span class="item-left">姓名</span>
@@ -17,18 +19,24 @@
 			</li>
 			<li class="item border-b1px">
 				<span class="item-left">身份证号</span>
-				<span class="item-right">实名认证</span>
-				<i class="arrow"></i>
+				<span class="item-right">
+					<router-link to="/myinfo/updateidcard">实名认证</router-link>
+				</span>
+				<router-link to="/myinfo/updateidcard" class="arrow"></router-link>
 			</li>
 			<li class="item border-b1px">
 				<span class="item-left">我的银行卡</span>
-				<span class="item-right">绑定银行卡</span>
-				<i class="arrow"></i>
+				<span class="item-right">
+					<router-link to="/myinfo/bindbankcard">绑定银行卡</router-link>
+				</span>
+				<router-link to="/myinfo/bindbankcard" class="arrow"></router-link>
 			</li>
 			<li class="item border-b1px">
 				<span class="item-left">邮箱</span>
-				<span class="item-right">绑定邮箱</span>
-				<i class="arrow"></i>
+				<span class="item-right">
+					<router-link to="/myinfo/updateemail">绑定邮箱</router-link>
+				</span>
+				<router-link to="/myinfo/updateemail" class="arrow"></router-link>
 			</li>
 			<li class="item border-b1px">
 				<span class="item-left">手机号</span>
@@ -68,7 +76,7 @@ export default {
 };
 </script>
 
-<style lang="stylus" type="type/stylus" rel="stylesheet/stylus">
+<style lang="stylus" type="type/stylus" rel="stylesheet/stylus" scoped>
 	@import "../../common/stylus/base.styl";
 	@import "../../common/stylus/mixin.styl";
 	@import "./css/myinfo.styl";

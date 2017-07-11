@@ -4,6 +4,8 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
 import App from './App';
+//import axios from 'axios';
+//import VueAxios from 'vue-axios';
 import index from './components/index/index';
 import ranking from './components/ranking/ranking';
 import news from './components/news/news';
@@ -22,14 +24,14 @@ import bindbankcard from './components/myinfo/bindbankcard';
 import updateemail from './components/myinfo/updateemail';
 import firstoffline from './components/myoffline/firstoffline';
 import secondoffline from './components/myoffline/secondoffline';
-//import secondoffline from './components/myoffline/secondoffline';
 
 // import 'common/stylus/index.styl';
 	Vue.use(VueRouter);
 	Vue.use(VueResource);
+  //Vue.use(axios);
+ // Vue.use(VueAxios, axios);
 
-
- // var router = new VueRouter();
+ // Vue.prototype.$ajax = axios;
 
 
 const routes = [
@@ -52,7 +54,6 @@ const routes = [
   { path: '/myinfo/updateemail', component: updateemail },
   { path: '/myoffline/firstoffline', component: firstoffline },
   { path: '/myoffline/secondoffline', component: secondoffline }
-  //{ path: '/myoffline/secondoffline', component: secondoffline }
 ];
 const router = new VueRouter({
   routes: routes,
@@ -69,14 +70,13 @@ const app = new Vue({
   },
   methods:{
     checkLogin(){
-      // this.$router.push('/login');
       //检查是否存在session
       // if(!this.getCookie('session')){
       //   //如果没有登录状态则跳转到登录页
       //   this.$router.push('/login');
       // }else{
       //   //否则跳转到登录后的页面
-      //   this.$router.push('/userInfo');
+      //   this.$router.push('/index');
       // }
     }
   },

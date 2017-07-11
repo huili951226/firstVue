@@ -24,9 +24,9 @@
     }
   };
 </script>
-<style lang="stylus" type="type/stylus" rel="stylesheet/stylus">
-@import "../../common/stylus/base.styl";
-@import "../../common/stylus/mixin.styl";
+<style lang="stylus" type="type/stylus" rel="stylesheet/stylus" scoped>
+  @import "../../common/stylus/base.styl";
+  @import "../../common/stylus/mixin.styl";
 	.details
 		h1
 			height:35px

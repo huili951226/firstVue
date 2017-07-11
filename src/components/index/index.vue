@@ -14,21 +14,10 @@
 		</div>
 		<div class="user">
 			<div class="user-message">
-				<img src="./images/user.png" @click="showDetail" width="45" alt="">
-				<a class="user-name">{{user.nickname}}</a>
+				<img :src="'http://172.35.2.246:9001/'+simple.avatar" @click="showDetail" width="45" alt="" >
+				<a class="user-name">{{simple.nickname}}</a>
 			</div>
 			<div class="other">
-				<div class="share">
-					<div class="jiathis_style">
-						<a class="jiathis_button_qzone"></a>
-						<a class="jiathis_button_tsina"></a>
-						<a class="jiathis_button_tqq"></a>
-						<a class="jiathis_button_weixin"></a>
-						<a class="jiathis_button_renren"></a>
-						<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-						<a class="jiathis_counter_style"></a>
-					</div>
-				</div>
 				<div class="visitor border-l1px">
 					<div class="today-visitor">
 						今日访客
@@ -144,6 +133,8 @@
 </template>
 <script type="text/ecmascript-6">
 	import footer from '../footer/footer'
+	import jquery from '../../common/js/jquery-1.11.3.min'
+
   const ERR_OK = 0;
   export default {
   	components: {
@@ -152,19 +143,24 @@
     data() {
       return {
         index: {},
-        user: {},
+        simple: {},
         detailShow: false
       };
     },
     created() {
       this.$http.get('/api/index').then((response) => {
-      	console.log(this.$route.query.id);
         response = response.body;
         if(response.errno === ERR_OK) {
           	this.index = response.data; 
           	this.user = response.data.user[this.$route.query.id]; 
         }
-      });
+      }),
+      this.$http.get('http://172.35.2.246:9001/api/user/simple/123').then((response) => {
+      	var simple;
+        this.simple = response.data;
+      	console.log(this.simple);
+      }),
+      this.checkLogin()  
     },
     methods: {
     	showDetail() {
@@ -172,12 +168,21 @@
     	},
     	close() {
     		this.detailShow = false;
+    	},
+    	checkLogin(){
+    		if(this.$route.query.phone == undefined){
+		      console.log("qqq");
+		      this.$router.push('/login');
+	        }else{
+	          this.$router.push('/index');
+	          console.log(this.$route.query.phone);
+	        }  
     	}
     }
   };
 </script>
 
-<style lang="stylus" type="type/stylus" rel="stylesheet/stylus">
+<style lang="stylus" type="type/stylus" rel="stylesheet/stylus" scoped>
 @import "../../common/stylus/base.styl";
 @import "../../common/stylus/mixin.styl";
 	.wrapper
